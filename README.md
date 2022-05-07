@@ -5,9 +5,14 @@
 * [Introduction](#introduction)
 * [Data Source](#data-source)
 * [Database Schema](#database-schema)
+* [Structure](#structure)
+* [Notes](#notes)
 
 ## Introduction
-This Project is to analysis E-commerce sales with PostgreSQL.
+
+The purpose of this project is to analyze KPI(Key Performance Indicator)s in the retail market using PostgreSQL for e-commerce dataset composed of various tables.
+
+The Olist database is stored in my local desktop and connected to Jupyter Notebook.
 
 ## Data Source
 
@@ -15,23 +20,41 @@ The dataset was originally posted on Kaggle and contains almost 100k orders from
 
 The database has 11 datasets which contain different information of customers, sellers, orders procedure, etc.
 
-[Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce):
+1. [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce):
 
-- olist_customers_dataset
-- olist_geolocation_dataset
-- olist_order_items_dataset
-- olist_order_payments_dataset
-- olist_order_reviews_dataset
-- olist_orders_dataset
-- olist_products_dataset
-- olist_sellers_dataset
-- product_category_name_translation
+    - olist_customers_dataset
+    - olist_geolocation_dataset
+    - olist_order_items_dataset
+    - olist_order_payments_dataset
+    - olist_order_reviews_dataset
+    - olist_orders_dataset
+    - olist_products_dataset
+    - olist_sellers_dataset
+    - product_category_name_translation
 
-[Marketing Funnel by Olist](https://www.kaggle.com/datasets/olistbr/marketing-funnel-olist):
+2. [Marketing Funnel by Olist](https://www.kaggle.com/datasets/olistbr/marketing-funnel-olist):
 
-- olist_closed_deals_dataset
-- olist_marketing_qualified_leads_dataset
+    - olist_closed_deals_dataset
+    - olist_marketing_qualified_leads_dataset
 
 ## Database Schema
 ![schema_01](Images/schema_01.png)
 ![schema_02](Images/schema_02.png)
+
+## Structure
+
+This repository includes the following files:
+
+- Query Notebook
+    - `connect-and-road-dataset.ipynb` - This notebook is to create and road the tables. Understand the details of each table and domain.
+    - There are 7 notebook that analyze the various KPIs.
+- [Dataset](Dataset/)
+    - There are 11 dataset with .csv file format.
+- [Iamges](Images/)
+    - There are images of the schema design of the database.
+- [sql](sql/)
+    - Creating the tables using queries. I usually use a [DBeaver](https://dbeaver.io/) as my database tool.
+
+## Notes
+
+I tried to write a queriesery by referring to this [Modern SQL Style Guide](https://gist.github.com/mattmc3/38a85e6a4ca1093816c08d4815fbebfb)
