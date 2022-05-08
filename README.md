@@ -57,4 +57,6 @@ This repository includes the following files:
 
 ## Notes
 
+Olist is neither an E-commerce company nor a marketplace itself. Olist provides a platform for merchants to sell their prodcuts online within a marketplace.
+
 I tried to write a queriesery by referring to this [Modern SQL Style Guide](https://gist.github.com/mattmc3/38a85e6a4ca1093816c08d4815fbebfb)
