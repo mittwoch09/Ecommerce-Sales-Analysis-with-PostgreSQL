@@ -38,8 +38,8 @@ The database has 11 datasets which contain different information of customers, s
     - olist_marketing_qualified_leads_dataset
 
 ## Database Schema
-<schema_01 src="Images/schema_01.png" width="200" height="200">
-<schema_02 src="Images/schema_02.png" width="200" height="200">
+<img src="https://github.com/mittwoch09/Ecommerce-Sales-Analysis-with-PostgreSQL/blob/main/Images/schema_01.png" width="200" height="200">
+<img src="https://github.com/mittwoch09/Ecommerce-Sales-Analysis-with-PostgreSQL/blob/main/Images/schema_02.png" width="200" height="200">
 
 ## Structure
 
