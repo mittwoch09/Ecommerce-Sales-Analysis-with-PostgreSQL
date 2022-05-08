@@ -38,8 +38,8 @@ The database has 11 datasets which contain different information of customers, s
     - olist_marketing_qualified_leads_dataset
 
 ## Database Schema
-![schema_01](Images/schema_01.png | width 200)
-![schema_02](Images/schema_02.png | width 200)
+<schema_01 src="Images/schema_01.png" width="200" height="200">
+<schema_02 src="Images/schema_02.png" width="200" height="200">
 
 ## Structure
 
