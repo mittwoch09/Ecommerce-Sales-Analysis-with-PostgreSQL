@@ -14,6 +14,16 @@ The purpose of this project is to analyze KPI(Key Performance Indicator)s in the
 
 The Olist database is stored in my local desktop and connected to Jupyter Notebook.
 
+## Problem Statement
+
+Churn analysis
+- review?
+- delivery?
+
+Conversion Rate(Seller side)
+- business type of MQL?
+- relations of SDR/SR?
+
 ## Data Source
 
 The dataset was originally posted on Kaggle and contains almost 100k orders from 2016 to 2018 made at multiple marketplaces in Brazil. This is a Brazilian ecommerce public dataset of orders made at Olist Store.
