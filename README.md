@@ -16,9 +16,10 @@ The Olist database is stored in my local desktop and connected to Jupyter Notebo
 
 ## Problem Statement
 
-Churn analysis
-- review?
-- delivery?
+Churn analysis(Customer side)
+- reason of high churn
+    - review?
+    - delivery?
 
 Conversion Rate(Seller side)
 - business type of MQL?
