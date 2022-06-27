@@ -16,14 +16,27 @@ The Olist database is stored in my local desktop and connected to Jupyter Notebo
 
 ## Problem Statement
 
-Churn analysis(Customer side)
-- reason of high churn
+Repeat purchase analysis(Customer side)
+
+|year|repeat_customers|num_customers|repeat_rate|
+|----|----------------|-------------|-----------|
+|2016|3	              |326	        |0.92       |
+|2017|1261	          |43713	    |2.88       |
+|2018|1799	          |52749	    |3.41       |
+
+- There is a serious problem with customer's repeat purchase rates. 
     - review?
     - delivery?
 
 Conversion Rate(Seller side)
-- business type of MQL?
-- relations of SDR/SR?
+|year|num_deals|num_leads|conversion_rate|
+|----|---------|---------|---------------|
+|2017|3	       |2002	 |0.15           |
+|2018|839	   |5998	 |13.99          |
+
+- Significantly low conversion rates for sign-up merchantst to become Olist sellers
+    - business type of MQL?
+    - traffic source?
 
 ## Data Source
 
